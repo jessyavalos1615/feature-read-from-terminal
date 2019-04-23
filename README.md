@@ -1,12 +1,16 @@
-# Read-from-terminal using Yargs module
-NodeJs project where you need give it two integer arguments from the terminal when running the file and it should return 
-an array the first argument as the lenght and the second as the default value.
+Read-from-terminal using Yargs module
+======
+**Read-from-terminal** is a NodeJs project where you need give it two integer arguments from the terminal when running the file and it should return an array with the length and value as you wish. The usage is explained like this:
 
-You need to install the yargs module and require it. This is necessary to read values 
-by console.
+```
+$ node index.js --length 3 --value 4
+  [4,4,4]
+$ 
+```
+## Version 
+* Version 1.0
 
-There're two ways to run the code. 
-The first is write in console '$ npm start' and the code will use a default 
-lenght = 4 and value = 3 giving as output [3,3,3,3].
-The  second way is write in console '$ node index.js --lenght ? --value ?' 
-where the character "?" it may be the value you want.
+## Contact
+#### Developer
+* Name: Jessy Avalos Barrales
+* e-mail: jessyavalos16@outlook.es
